@@ -1,0 +1,8 @@
+ul{
+    background-color: red;
+}
+.about{
+    color: transparent;
+    background:-webkit-repeating-linear-gradient(45deg, green 20%, red 22%);
+    background-clip:text ;
+}

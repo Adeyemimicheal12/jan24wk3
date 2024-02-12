@@ -1,0 +1,117 @@
+ 
+
+ul{
+    background-color: #f1c;
+    background: linear-gradient(180deg, red 33%, white 33%,white 40%, blue 40%,blue 60%, white 60%,white 67%, green 67% );
+}
+ul:hover{
+    
+    background: linear-gradient(90deg, green 33%, white 33%, white 66%, green 66%);
+}
+
+section{
+    width: 900px;
+    height: 500px;
+}
+
+section{
+    width: 500px;
+    height: 500px;
+}
+.second{
+    background: radial-gradient(red 30%, white 30%);
+}
+ul:hover{
+    background: linear-gradient(180deg, red 33%, white 33%,white 40%, blue 40%,blue 60%, white 60%,white 67%, green 67% )
+}
+.third{
+    background: repeating-radial-gradient(green 20%, red 22%);
+}
+.first{
+    color: transparent;
+    background:-webkit-repeating-linear-gradient(45deg, green 20%, red 22%);
+    background-clip:text ;
+}
+ul{
+    background: conic-gradient(
+        violet 15%,
+        cyan 15%,
+        cyan 25%, 
+        blue 25%,
+        blue 35%,
+        purple 35%,
+        purple 50%,
+        gray 50%,
+        gray 75%,
+        green 75%,
+        green 85%,
+        brown 85%,
+        brown 100%
+    )
+ } 
+
+/* body {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  } */
+  
+  /* nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  } */
+  
+  /* section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  } */
+  
+  /* Add specific styles for other sections, form, and images as per your requirements */
+  
+  /* footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    
+  }
+  .Look
+  img{
+    float: left;
+  }
+  .COd
+  img{
+    float: right;
+  }
+  .a{
+    display: inline-block;
+    width: 200px;
+    
+  }
+  .b{
+    display: inline-block;
+    width: 200px;
+    
+  } */
+
+
