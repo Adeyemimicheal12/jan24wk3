@@ -20,14 +20,38 @@
         main:nth-of-type(2){
             grid-area:3/3/1/5 ;
         }
+
+        .share{
+            text-align: center;
+        }
+        .like{
+            display: flex;
+        }
     </style>
 </head>
 <body>
+    <nav>
+        <a href="#about me">About Me</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+            <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+            <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+          </svg>
+    </nav>
     <section>
         <div id="boy">
-        <main>ABOUT ME</main>
+            <h1>ABOUT ME</h1>
+        <main>I am a student and am also a full stack web developer. I'm 17 old years and I started the developing in the year 2023 and have been practicing like a lot which i think have improved me a lot but was kind hard when learning but to be more sincere learning does not end which i think we should all try to continue.</main>
     </div>
-        <main>I'm Adeyemi Kehinde,Frontend Developer</main>
+    <div id="share">
+    <nav>
+        <a href="#skills" class="like">Skills</a>
+
+    </nav>
+        <main>Skills<li>HTML</li>
+        <li>CSS</li>
+        <li>PYTHON</li>
+    </main>
+</div>
     </section>
 </body>
 </html> 
